@@ -12,14 +12,8 @@
       <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Email:</font></td>
       <td width="250"><input name="email" type="text" id="email"></td>
     </tr>
-    <tr> 
-      <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Qual nome do seu animal de estimacao ?</font></td>
-      <td width="250"><input name="animal" type="text" id="animal"></td>
-    </tr>
-    <tr> 
-      <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Qual seu time ?</font></td>
-      <td width="250"><input name="time" type="text" id="time"></td>
-    </tr>
+   
+   
     <tr> 
       <td>&nbsp;</td>
       <td>&nbsp;</td>

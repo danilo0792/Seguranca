@@ -15,7 +15,6 @@ mysql_query("INSERT INTO Senha (id_usuario, senha, dat_atualizacao) VALUES ( (SE
 
 
 if ( $result == 1 ) {
-	session_start();
 	$_SESSION['email'] = $email;
 	$_SESSION['senha'] = $senha;
 	header("Location: ok.php");

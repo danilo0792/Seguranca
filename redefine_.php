@@ -8,7 +8,7 @@ $result = mysql_query("UPDATE senha SET senha = '$senha' WHERE id_usuario = (SEL
 
 
 if ( $result == 1 ) {
-	session_start();
+	unset($_SESSION['token_seguranca']);
 	$_SESSION['email'] = $email;
 	$_SESSION['senha'] = $senha;
 	header("Location: ok.php");

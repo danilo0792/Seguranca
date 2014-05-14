@@ -14,7 +14,6 @@ $result = mysql_query("SELECT
 $contagem = mysql_num_rows($result); 
 
 if ( $contagem == 1 ) {
-	session_start();
 	$_SESSION['email'] = $email;
 	$_SESSION['senha'] = $senha;
 	header("Location: ok.php");
